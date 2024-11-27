@@ -1,75 +1,38 @@
+# Profile Data App
+
+This application allows users to create a comprehensive profile by filling out a form. The application integrates with the Gravatar API to fetch user information and displays it in a clean, modern profile card UI. If the Gravatar data is unavailable, the form input data is used instead.
+
+## Features
+- **Extensive Profile Form**: Collects user details including email, full name, username, phone number, location, website/social link, and bio.
+- **Gravatar Integration**: Automatically fetches user details and profile image from Gravatar using the provided email address.
+- **Dynamic Profile Card**: Displays profile details in a card-style UI with the following sections:
+  - Profile Image: Gravatar image (if available) or a default placeholder.
+  - Personal Details: Full Name, Username, and Location.
+  - Contact Details: Email and Phone Number.
+  - Bio: User's short description.
+  - Website/Social Link: Clickable link to the user's website or profile.
+- **Fallback Mechanism**: Uses user-provided data when Gravatar details are unavailable.
+
+## Tech Stack
+- **Frontend**: React.js with functional components and hooks.
+- **Styling**: CSS (customizable via `ProfileForm.css`).
+- **Gravatar Integration**: Gravatar API and MD5 hashing.
+- **Package Management**: npm.
+
+## Prerequisites
+Ensure you have the following installed on your system:
+- Node.js (v16+ recommended)
+- npm (v7+ recommended)
+
 # Running the the app
 
-git clone the repository of download it as a zip file then open in a editor
+git clone the repository or download it as a zip file then open in a editor
 
 ```bash
 npm install
 npm start
 ```
 
-## Available Scripts
+# Demo Video
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Link - https://drive.google.com/file/d/1F5T-VhBTCO4HIcoH4YfADmk9yz1HlZNg/view?usp=sharing
