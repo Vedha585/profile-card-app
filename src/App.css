@@ -1,38 +1,112 @@
-.App {
-  text-align: center;
+/* App.css */
+
+/* Global styles */
+body {
+  background-color: #f7fafc; /* Light gray background for the app */
+  font-family: 'Arial', sans-serif; /* Global font */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Center the form and profile card on the page */
+.container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f1f5f9; /* Slightly different background for contrast */
+}
+
+/* Form styles */
+form {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 0.75rem;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+  margin-top: 1.5rem;
+}
+
+form label {
+  font-size: 0.875rem;
+  color: #4a5568;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #cbd5e0;
+  border-radius: 0.375rem;
+  font-size: 1rem;
+  color: #2d3748;
+  background-color: #f7fafc;
+}
+
+form button {
+  background-color: #3182ce;
   color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.375rem;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
 }
 
-.App-link {
-  color: #61dafb;
+form button:hover {
+  background-color: #2b6cb0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Profile Card Styles */
+.profile-card {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+  margin-top: 1.5rem;
+}
+
+.profile-card img {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile-card .bio,
+.profile-card .contact,
+.profile-card .location,
+.profile-card .website {
+  margin-top: 1rem;
+}
+
+.profile-card h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #2d3748;
+}
+
+.profile-card p {
+  font-size: 1rem;
+  color: #4a5568;
+}
+
+.profile-card a {
+  color: #3182ce;
+  text-decoration: underline;
+}
+
+.profile-card button {
+  background-color: #e53e3e;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.375rem;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.profile-card button:hover {
+  background-color: #c53030;
 }
